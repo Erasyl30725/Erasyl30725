@@ -10,7 +10,7 @@ body, * {
 .back {
     padding: 0 5%;
     height: 100%;
-    background-image: url("/images/back.png");
+    background-image: url("/images/photo.png");
     background-size: cover;
 }
 
