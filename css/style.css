@@ -157,6 +157,21 @@ body, * {
     font-size: 4vh;
 }
 
+.form button {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #198754;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.form button:hover {
+    background-color: white;
+    color: #198754;
+    border: 1px solid white;
+}
+
 .footer {
     background-color: black;
     padding: 2% 5%;
