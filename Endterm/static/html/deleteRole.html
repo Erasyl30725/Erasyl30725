@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+        }
+        input {
+            width: 200px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Role Delete</h2>
+    </div>
+    <form action="/deleterole" method="post">
+    <div style="margin-bottom: 10px">
+        <input type="number" placeholder="ID" name="id">
+    </div>
+    <div>
+        <button type="submit">Delete</button>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 2%;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+        }
+        table, th, td  {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 20px;
+            font-size: 25px;
+        }
+        button {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center mb-5">
+                <h1>Admin</h1>
+            </div>
+            <div class="col-12 mb-5">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Roles</th>
+                            <th>Tours</th>
+                            <th>Users</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/deleterole"><button>Delete role</button></a></td>
+                            <td><a href="/addtour"><button>Add tour</button></a></td>
+                            <td><a href="/deleteuser"><button>Delete user</button></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/roles"><button>All roles</button></a></td>
+                            <td><a href="/deletetour"><button>Delete tour</button></a></td>
+                            <td><a href="/users"><button>All users</button></a></td>
+
+                        </tr>
+                        <tr>
+                            <td><a href="/changerole"><button>Change role</button></a></td>
+                            <td><a href="/changetour"><button>Change tour</button></a></td>
+
+                            <td><a href="/changeuser"><button>Change user</button></a></td>
+
+                        </tr>
+                        <tr>
+                            <td><a href="/addrole"><button>Create role</button></a></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12">
+                <div class="d-flex justify-content-center">
+                    <h2>Roles</h2>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .}}
+                        <tr>
+                            <th>{{.Id}}</th>
+                            <td>{{.Name}}</td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

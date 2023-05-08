@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h2 class="d-flex justify-content-center">Change User</h2>
+                </div>
+                <form action="/changeuser" method="post">
+                <div class="col-12">
+                    <input type="text" placeholder="User phone" name="phone">
+                </div>
+                <div class="col-12">
+                    <input type="text" placeholder="First Name" name="fn">
+                </div>
+                <div class="col-12">
+                    <input type="text" placeholder="Last Name" name="ln">
+                </div>
+                <div class="col-12">
+                    <input type="email" placeholder="Email" name="email">
+                </div>
+                    <div class="col-12">
+                        <input type="number" placeholder="Role" name="role">
+                    </div>
+                <div class="col-12">
+                    <input type="password" placeholder="Password" name="pass">
+                </div>
+                <div class="col-12">
+                    <button type="submit">Change</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

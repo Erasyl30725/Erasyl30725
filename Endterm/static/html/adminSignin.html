@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h2 class="d-flex justify-content-center">Admin</h2>
+                </div>
+                <form action="/adminauth" method="post">
+                <div class="col-12">
+                    <input type="text" placeholder="Phone" name="phone">
+                </div>
+                <div class="col-12">
+                    <input type="password" placeholder="Password" name="pass">
+                </div>
+                <div class="col-12">
+                    <button type="submit">Go</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

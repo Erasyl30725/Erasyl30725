@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+.booking {
+    padding: 0 5%;
+    color: white;
+    background-color: black;
+}
+
+.booking h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+}
+
+.booking img {
+    width: 100%;
+}
+
+.booking h2 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    color: white;
+}
+
+.booking button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.nav {
+    height: 100px;
+    position: relative;
+    background-color: black;
+}
+
+
+
+.nav .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}

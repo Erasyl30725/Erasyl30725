@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.back {
+    padding: 0 5%;
+    height: 100%;
+    background-image: url("/images/back.png");
+    background-size: cover;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.nav .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.bridge {
+    color: white;
+    height: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.bridge h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.bridge h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 64px;
+}
+
+.bridge.col-12 {
+    margin-top: 200px;
+}
+
+.bridge button {
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 194px;
+    background-color: rgba(0,0,0,0);
+    height: 65px;
+    color: white;
+}
+
+.bridge a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.best {
+    color: white;
+    background-image: url("/images/back2.png");
+    background-size: 100%;
+    height: 1000px;
+}
+
+.best h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+}
+
+.best img:not(.col-7) {
+    width: 309px;
+    height: 375px;
+}
+
+.best .col-2 img {
+    width: 100%;
+}
+
+.booking {
+    padding: 0 5%;
+    color: white;
+    background-color: black;
+}
+
+.booking h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+}
+
+.booking img {
+    width: 100%;
+}
+
+.booking h2 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    color: white;
+}
+
+.booking button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.form {
+    padding: 0 5%;
+    background-image: url("/images/back3.png");
+    background-size: cover;
+    color: white;
+}
+
+.form h1 {
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form label {
+    color: black;
+    font-size: 4vh;
+}
+
+.form button {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #198754;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.form button:hover {
+    background-color: white;
+    color: #198754;
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: black;
+    padding: 2% 5%;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer h5 {
+    color: white;
+}
+
+.footer .col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
